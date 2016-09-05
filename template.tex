@@ -1,0 +1,171 @@
+\documentclass[aspectratio=169,12pt]{beamer}
+\usepackage[T1]{fontenc} %pipes don't display properly without this
+\usepackage[utf8]{inputenc}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{datapie}
+\usepackage{multicol}
+\usepackage{siunitx} %pretty measurement unit rendering
+\usepackage{hyperref} %enable hyperlink for urls
+\usepackage{caption} % needed to tweak caption size
+
+
+\usefonttheme[onlymath]{serif}
+\setcounter{MaxMatrixCols}{20}
+
+\DeclareSIUnit\pixel{px}
+
+\usecolortheme[RGB={37,68,113}]{structure}
+\usetheme{Dresden}
+
+\newenvironment{figurehere}
+{\def\@captype{figure}}
+{}
+\makeatother
+
+%commands to exclude sections from miniframes
+\makeatletter
+\let\beamer@writeslidentry@miniframeson=\beamer@writeslidentry
+\def\beamer@writeslidentry@miniframesoff{%
+   	\expandafter\beamer@ifempty\expandafter{\beamer@framestartpage}{}% does not happen normally
+   	{%else
+   		% removed \addtocontents commands
+   		\clearpage\beamer@notesactions%
+   	}
+}
+\newcommand*{\miniframeson}{\let\beamer@writeslidentry=\beamer@writeslidentry@miniframeson}
+\newcommand*{\miniframesoff}{\let\beamer@writeslidentry=\beamer@writeslidentry@miniframesoff}
+\beamer@compresstrue
+\makeatother
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+%various gray colors
+\definecolor{slg}{gray}{0.25}
+\definecolor{lg}{gray}{0.55}
+\definecolor{vlg}{gray}{0.73}
+\definecolor{tlg}{gray}{0.9}
+
+%TheAlt colors
+\definecolor{ldorange}{HTML}{F18A20}
+\colorlet{ldbright}{ldorange!70!white} % tinted version of orange, used in miniframes
+\definecolor{ldblue}{HTML}{254471}
+
+%reduce caption font size:
+\captionsetup{font={scriptsize,color=lg}}
+
+%do not prepend numbering/lettering to figures/subfigures
+\captionsetup{labelformat=empty} %do not prepend letters to figure captions
+
+%Apply TheAlt colors to theme
+ % section titles in top navigation bar
+\setbeamercolor{section in head/foot}{parent=palette tertiary,fg=ldorange}
+\setbeamertemplate{section in head/foot shaded}{\color{ldbright}\usebeamertemplate{section in head/foot}}
+ % miniframes (little navigation circles)
+\setbeamercolor*{mini frame}{fg=ldorange,bg=ldbright}
+\setbeamertemplate{mini frame in other section}[default][0]
+\setbeamertemplate{mini frame in other subsection}[default][0]
+ % others
+\setbeamercolor{author in head/foot}{fg=white}
+\setbeamercolor{subsection in head/foot}{fg=white}
+\setbeamercolor{caption name}{fg=vlg}
+\setbeamercolor{caption}{fg=vlg}
+\setbeamercolor{frametitle}{fg=ldblue}
+
+\setbeamertemplate{caption}{\raggedright\insertcaption\par}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{bibliography item}[text]
+
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+
+\lstdefinestyle{custombash}{
+	belowcaptionskip=1\baselineskip,
+	captionpos=,
+	breaklines=true,
+	frame=L,
+	xleftmargin=\parindent,
+	language=bash,
+	showstringspaces=false,
+	basicstyle=\scriptsize\ttfamily,
+	rulecolor=\color{tlg},
+	backgroundcolor=\color{tlg},
+	fillcolor=\color{tlg},
+	rulesepcolor=\color{tlg},
+	commentstyle=\itshape\color{purple!60!black},
+	keywordstyle=\bfseries\color{ldorange!80!black},
+	%keywordstyle=\bfseries\color{green!40!black},
+	identifierstyle=\color{blue},
+	stringstyle=\color{orange},
+}
+
+\lstset{language=Bash,caption={Descriptive Caption Text},label=DescriptiveLabel}
+
+$if(title)$
+\title{$title$}
+$endif$
+$if(subtitle)$
+\subtitle{$subtitle$}
+$endif$
+$if(author)$
+\author{$for(author)$$author$$sep$ \and $endfor$}
+$endif$
+
+\institute{\includegraphics[width=0.35\textwidth]{img/logo_blue.pdf}}
+\date{$date$}
+
+\renewcommand{\emph}[1]{\textcolor{ldorange}{#1}}
+\newcommand{\soft}[1]{\textcolor{lg}{#1}}
+\newcommand{\textt}[1]{\textcolor{blue}{\texttt{#1}}}
+\newcommand{\bigtext}[1]{\centering\Huge \textbf{\textcolor{ldorange}{#1}}}
+
+%shortcut to insert small logo in footline
+\def\logo{%
+	\resizebox{!}{3ex}{\includegraphics{img/logo_white.pdf}}
+}
+
+% Define a custom footline that includes our logo
+\setbeamertemplate{footline}
+{%
+	\begin{beamercolorbox}[wd=\paperwidth,ht=2.5ex,dp=1.125ex,%
+		leftskip=.3cm,rightskip=.3cm plus1fil]{title in head/foot}
+		\usebeamerfont{title in head/foot}%
+		\insertshorttitle\hfill\insertframenumber
+	\end{beamercolorbox}
+	\begin{beamercolorbox}[wd=\paperwidth,ht=3.5ex,dp=1.625ex,%
+		leftskip=.3cm,rightskip=.3cm plus1fil]{author in head/foot}
+		\usebeamerfont{author in head/foot}
+		\raisebox{0.5ex}{\insertshortauthor}\hfill\raisebox{-0.5ex}{\logo}
+	\end{beamercolorbox}
+}
+
+\begin{document}
+
+$if(title)$
+\frame{\titlepage}
+$endif$
+
+$for(include-before)$
+$include-before$
+
+$endfor$
+
+$if(toc)$
+\begin{frame}
+\tableofcontents[hideallsubsections]
+\end{frame}
+
+$endif$
+
+$body$
+
+$for(include-after)$
+$include-after$
+
+$endfor$
+
+\end{document}
