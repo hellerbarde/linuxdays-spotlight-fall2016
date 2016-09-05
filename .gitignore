@@ -1,5 +1,7 @@
 *.log
 *.aux
+*.dvi
+*.ref
 *.pdf
 *~
 *.swp
