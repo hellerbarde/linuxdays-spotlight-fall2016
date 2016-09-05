@@ -2,7 +2,6 @@
 *.aux
 *.dvi
 *.ref
-*.pdf
 *~
 *.swp
 *.tmp
