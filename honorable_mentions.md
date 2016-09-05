@@ -1,0 +1,4 @@
+- vim
+  - gundo
+  - . (key)
+  - alt-hack: pressing alt sends Escape-sequence to (most) terminals. Might be worth mentioning
