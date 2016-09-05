@@ -12,38 +12,45 @@ Part of that is the tooling necessary to achieve some measure of efficiency in w
 
 ## Roter Faden:
 
-- Demo 4
-- Why command line tools? 6
-- Git 12
+- Demo 4 5.5min
+- Why command line tools? 6 8.2min
+  - command line power is more comfortably accessable
+    - scriptable
+    - Gets rid of "context switching" to CLI
+  - some people enjoy knowing what's going on behind the scenes
+- vim 12 16.4min
+  - vim basics
+    - *how to grok vi*
+      - editing language
+      - what and why are modes?
+    - split (vert/hor)
+    - tabs
+    - CTRL-Z
+  - essential vim plugins (livedemos)
+    - nerdtree
+    - comment plugin
+    - filetype
+  - mention eclim for java
+- Git 12 16.4min
   - basics
   - tools
     - tig
     - gitk
     - git gui
     - zsh (integration)
-- Shell tools 2
+- Shell tools 2 2.7min
   - ranger
   - history | tail -20 | cut -d " " -f 1
   - moar plz?
-- vim 12
-  - vim basics
-    - how to grok vi
-      - editing language
-      - what and why are modes?
-    - split (vert/hor)
-    - tabs
-  - essential vim plugins
-    - nerdtree
-    - comment plugin
-    - filetype
-- Build Toolchains 24
+- Build Toolchains 24 32.7min
   - cmake
   - maven
   - gradle
   - ant
   - setuptools (python)
-- Debugger 6
+- Debugger 6 8.2min
   - gdb
     - TUI
     - "finestra"
   - Java Debugger (jdb)
+
