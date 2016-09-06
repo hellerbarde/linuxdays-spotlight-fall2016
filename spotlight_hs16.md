@@ -3,20 +3,25 @@
 % March 22, 2005
 
 # In the morning
+## A story
 
-## Getting up
+### First some code
+
+    echo "Hello World"
+
+### Getting up
 
 - Turn off alarm
 - Get out of bed
 
-## Breakfast
+### Breakfast
 
 - Eat eggs
 - Drink coffee
 
 # In the evening
-
-## Dinner
+## Another story
+### Dinner
 
 - Eat spaghetti
 - Drink wine
@@ -24,7 +29,7 @@
 ------------------
 
 
-## Going to sleep
+### Going to sleep
 
 - Get in bed
 - Count sheep
