@@ -27,7 +27,7 @@
 
 ### Insert Mode
 
-	Does what any other editor those
+	Does what any other editor does
 
 ### Visual Mode
 	
