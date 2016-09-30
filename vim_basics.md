@@ -75,6 +75,4 @@
 
 ### FileType
 
-### Comment Plugin
-
-### Eclim
+### nerdcommenter

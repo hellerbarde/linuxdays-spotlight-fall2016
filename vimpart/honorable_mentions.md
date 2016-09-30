@@ -4,3 +4,4 @@
   - alt-hack: pressing alt sends Escape-sequence to (most) terminals. Might be worth mentioning
   - skeleton files: Open a .c file -> free main methods!
   - you-complete-me > eclim probably
+  - eclim
