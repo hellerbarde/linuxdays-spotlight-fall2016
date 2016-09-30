@@ -18,6 +18,7 @@ Part of that is the tooling necessary to achieve some measure of efficiency in w
     - scriptable
     - Gets rid of "context switching" to CLI
   - some people enjoy knowing what's going on behind the scenes
+  - A lot of CL tools are archaic and seldomly change their standards. Basic command line tools stay relevant for dozens of years and only have to be learnt once
 - vim 12 16.4min
   - vim basics
     - *how to grok vi*
