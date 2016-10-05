@@ -5,3 +5,4 @@
   - skeleton files: Open a .c file -> free main methods!
   - you-complete-me > eclim probably
   - eclim
+  - mention the various vim cheatsheet-wallpapers for those that can't wrap their head around the vim motions
