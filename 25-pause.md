@@ -2,6 +2,7 @@
 ---
 notes: |
     Prepare demonstration of Ant build
+    FINISHED
 ...
 
 # Break
