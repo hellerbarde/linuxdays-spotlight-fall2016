@@ -56,8 +56,6 @@ And extremely powerful.
 
 ![](resources/vim/hjkl_keyboard.jpg){ width=80% }
 
-# Getting Faster
-
 ## Learning Vim
 
 ### How To "Grok" Vim
@@ -76,8 +74,6 @@ And extremely powerful.
 - Ctrl-Z
 - Watch some talks online: "Write Code Faster: Expert-Level Vim"
 - Learn Vimscript the Hard Way.
-
-# Plugins
 
 ## Plugins
 
