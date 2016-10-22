@@ -11,7 +11,7 @@ notes: |
         - unit test runner 
 ...
 
-# Miscellaneous
+# Misc
 
 ##
 

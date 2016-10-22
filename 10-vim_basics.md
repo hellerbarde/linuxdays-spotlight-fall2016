@@ -4,7 +4,7 @@ notes: |
 	FINISHED
 ...
 
-# Vim Basics
+# Vim
 
 ## What Vim Is And Isn't
 
