@@ -38,9 +38,12 @@
 ### Normal Mode
 	
 	Magic and hjkl.
+### 
+
+![](resources/vim/ADM-3A terminal.jpg){ width=50% }
 
 ###
-	
+
 ![](resources/vim/hjkl_keyboard.jpg){ width=80% }
 
 # Getting Faster
@@ -75,5 +78,3 @@
 ### NERDTree
 
 ### FileType
-
-### nerdcommenter
