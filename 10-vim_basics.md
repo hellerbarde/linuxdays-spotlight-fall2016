@@ -1,7 +1,3 @@
-% Vim 
-% Nils Leuzinger
-% October 25, 2016
-
 # Vim Basics
 
 ## What Vim Is And Isn't
