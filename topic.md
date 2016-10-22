@@ -45,6 +45,8 @@ Personally, I only use something other than the command line for very specific t
     - filetype
   - mention eclim for java
 - Git 12 16.4min
+  + The problem it solves is as complex as git seems to be. 
+  + Other systems aren't better, because you cannot easily solve a complex problem with a simple tool. The degrees of freedom are big
   - basics
   - tools
     - tig
