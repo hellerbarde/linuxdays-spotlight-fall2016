@@ -14,8 +14,6 @@ notes: |
         - example build.sh
 ...
 
-# Command-line Tools
-
 ##
 
 ###
