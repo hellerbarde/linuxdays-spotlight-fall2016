@@ -3,7 +3,7 @@
 notes: |
 	FINISHED
 ...
-# Vim Basics
+# Vim
 
 ## What Vim Is And Isn't
 
@@ -55,7 +55,7 @@ And extremely powerful.
 
 ![](resources/vim/hjkl_keyboard.jpg){ width=80% }
 
-# Getting Faster
+## Getting Faster
 
 ## Learning Vim
 
@@ -76,13 +76,13 @@ And extremely powerful.
 - Watch some talks online: "Write Code Faster: Expert-Level Vim"
 - Learn Vimscript the Hard Way.
 
-# Plugins
+## Plugins
 
 ## Plugins
 
 ### Vim Is not an IDE
 	
-- But it can be.
+- But it can be. (Almost)
 
 ### NERDTree
 

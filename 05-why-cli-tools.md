@@ -13,7 +13,7 @@ notes: |
         - see opera, firefox, thunderbird, chrome, android, iphone, youtube... 
 ...
 
-# Why Command-Line Tools
+# CLI
 
 ## Some particularly fancy features
 
