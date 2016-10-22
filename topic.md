@@ -19,7 +19,7 @@ Part of that is the tooling necessary to achieve some measure of efficiency in w
   - Control over your environment is important
     - remove second guessing yourself
 
-- Why Command Line (Nils)
+- Why Command Line 10min (Nils)
   - full control
   - transparency
     - important to the understanding (what happens when i click build)
@@ -31,7 +31,7 @@ Part of that is the tooling necessary to achieve some measure of efficiency in w
     - see opera, firefox, thunderbird, chrome, android, iphone, youtube... 
 
 
-- Command line tools (Phil)
+- Command line tools 15min (Phil)
   - ssh (& sshfs)
   - rsync
   - tmux
@@ -43,14 +43,16 @@ Part of that is the tooling necessary to achieve some measure of efficiency in w
   - Custom bash scripts
     - example build.sh
 
-- Vim (Nils)
+- Vim 15-20min (Nils)
 
-- Git (Phil)
+- Git 15-20min (Phil)
   - Why not use the IDE integration?
     - Better understanding
     - more control
 
-- Java Build Tools (Demo Nils, Theorie Phil)
+- PAUSE: 10min
+
+- Java Build Tools 10min (Demo Nils, Theorie Phil)
   - Why are there multiple ones? 
     - Example Rust
 
@@ -59,7 +61,7 @@ Part of that is the tooling necessary to achieve some measure of efficiency in w
   - Maven
 
 
-- Misc: (Nils)
+- Misc: 5min (Nils)
   - C/C++ Build Tools
     - Honorable Mentions
       - qmake
