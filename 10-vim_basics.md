@@ -47,17 +47,13 @@ And extremely powerful.
 	
 - Magic and hjkl.
 
-### 
+###
 
 ![](resources/vim/ADM-3A terminal.jpg){ width=50% }
 
 ###
 
-blabla
-<div style="float:left;margin:0 10px 10px 0" markdown="1">
 ![](resources/vim/hjkl_keyboard.jpg){ width=80% }
-</div>
-blublu
 
 # Getting Faster
 

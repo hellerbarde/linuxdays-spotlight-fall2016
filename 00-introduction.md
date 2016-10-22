@@ -1,6 +1,6 @@
 
 ---
-title:  'Linuxdays Spotlight Course'
+title:  'LinuxDays Spotlight Course'
 date: 'Oct 25, 2016'
 author:
 - Nils Leuzinger
@@ -16,9 +16,9 @@ notes: |
 
 # Introduction
 
-## 
+## Introduction
 
-### 
+### Overview
 
 - What this course is
 - What this course won't be
