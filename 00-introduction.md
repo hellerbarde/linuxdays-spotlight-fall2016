@@ -1,12 +1,12 @@
-% Linuxdays Spotlight Course
+% LinuxDays Spotlight Course
 % Nils Leuzinger, Philip Stark
 % Oct 25, 2016
 
 # Introduction
 
-## Test
+## Introduction
 
-### Test 3
+### Overview
 
 - What this course is
 - What this course won't be
