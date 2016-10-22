@@ -18,7 +18,8 @@
 	- Write whole plugins!
 
 ## Modal Editing
-<!-- Definitely show a demo, at least for every mode -->
+
+
 ### Vim Modes
 	- Insert Mode
 	- Visual Mode

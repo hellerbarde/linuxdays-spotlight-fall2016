@@ -1,0 +1,71 @@
+<project name="MyJavaProject" default="jar" basedir="." >
+  <description>
+    Small Java Project
+    Builds a jar with "ant jar"
+  </description>
+
+  <!-- this property will appear in the output filename. 
+  Set it to the project name or maybe the exercise name/number
+  For example:
+  - MyWebDevProject
+  - ParallelProgrammingEx1
+  - A_and_D_Ex2 -->
+  <property name="projectname" value="pfcs"/>
+
+  <!-- this property will appear in the output filename. 
+  Set it to your name or n.ethz user name -->
+  <property name="username" value="pstark"/>
+
+  <property name="mainclass" value="your.packages.name.exercises.MainClass"/>
+
+  <!-- directory where your java files are -->
+  <property name="src" location="src"/>
+
+  <!-- directory where the java compiler compiles the class files to -->
+  <property name="build" location="build"/>
+  
+  <!-- directory where your jar files will be  -->
+  <property name="dist" location="dist"/>
+
+  <!-- directory where your jar files will be  -->
+  <property name="lib" location="lib"/>
+    
+  <path id="classpath">
+    <fileset dir="${lib}">
+      <include name="*.jar"/>
+    </fileset>
+  </path>
+
+  <target name="init">
+    <mkdir dir="${build}"/>
+    <mkdir dir="${lib}"/>
+  </target>
+  
+  <target name="compile" depends="init" description="compile java files">
+    <javac srcdir="${src}" destdir="${build}" includeantruntime="false"   >
+      <classpath refid="classpath" />
+    </javac>
+  </target>
+
+  <target name="jar" depends="compile" description="build jar file">
+    <mkdir dir="${dist}"/>
+
+    <jar jarfile="${dist}/${projectname}-${username}.jar" basedir="${build}" compress="true">
+      
+      <!-- if you want all source files included in the jar, uncomment the next line -->
+      <!-- <fileset dir="${src}" includes="**/*.java"/> -->
+      
+      <!-- this includes all the dependency jars in the "lib" folder -->
+      <zipgroupfileset dir="${lib}" includes="**/*.jar" /> 
+
+      <manifest>
+        <attribute name="Main-Class" value="${mainclass}"/>
+      </manifest>
+    </jar>
+  </target>
+
+  <target name="clean" description="clean folder">
+    <delete dir="${build}"/>
+    <delete dir="${dist}"/>
+  </target>
+</project>
