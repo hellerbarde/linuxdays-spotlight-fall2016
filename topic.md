@@ -12,11 +12,46 @@ Part of that is the tooling necessary to achieve some measure of efficiency in w
 
 ## Roter Faden:
 
+- Intro
+  - Only an overview. Not going into depth on any of the tools
+  - IDEs are not evil
+  - git, vim, ant, cmake
+
+- Why Command Line is important 
+  - full control
+  - transparency
+    - important to the understanding (what happens when i click build)
+  - reproducibility
+  - efficiency
+    - with custom bash scripts
+
+- Command line tools
+  - tmux
+    - for long builds
+    - for letting runs go over night
+#  - ranger
+
+  - history | tail -20
+    - Build your own shell script
+  #- htop? Although sandro has already covered that
+  #- parted? Not really a tool for daily use though.
+  - gdb
+
+- Vim
+- Git
+- Ant
+- Cmake
+
+- Questions and Workshop?
+
+
 - Demo 4 5.5min
 <!-- It might be worth it to talk about the power of command line generally, if people are still not convinced.
 Not sure if people already realize that you can spend your whole everyday-live in the command line.
 Personally, I only use something other than the command line for very specific tasks - i.e. browsing, telegram, android-studio and viewing pdfs, but I never leave the commandline for anything else. 
 -Nils -->
+
+
 
  - tmux (+ i3?)
  - zsh completion system

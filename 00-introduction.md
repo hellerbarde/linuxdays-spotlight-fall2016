@@ -1,36 +1,12 @@
-% Habits
-% John Doe
-% March 22, 2005
+% Linuxdays Spotlight Course
+% Nils Leuzinger, Philip Stark
+% Oct 25, 2016
 
-# In the morning
-## A story
+# Introduction
 
-### First some code
+## Test
 
-    echo "Hello World"
+### Test 3
 
-### Getting up
-
-- Turn off alarm
-- Get out of bed
-
-### Breakfast
-
-- Eat eggs
-- Drink coffee
-
-# In the evening
-## Another story
-### Dinner
-
-- Eat spaghetti
-- Drink wine
-
-------------------
-
-
-### Going to sleep
-
-- Get in bed
-- Count sheep
-
+- What this course is
+- What this course won't be

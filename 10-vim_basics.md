@@ -4,40 +4,43 @@
 
 ### Vim is an editor
 
-	...but probably unlike anything else you've ever used. 
-	And extremely powerful.
+...but probably unlike anything else you've ever used. 
+
+And extremely powerful.
 
 ### Configurability
 
-	Vimscript
-	- Remap keys
-	- Write whole plugins!
+Vimscript
+
+- Remap keys
+- Write whole plugins!
 
 ## Modal Editing
 
 
 ### Vim Modes
-	- Insert Mode
-	- Visual Mode
-	- Command-Line Mode
-	- Normal Mode
+
+- Insert Mode
+- Visual Mode
+- Command-Line Mode
+- Normal Mode
 
 ### Insert Mode
 
-	Does what any other editor does
+- Does what any other editor does
 
 ### Visual Mode
 	
-	Selecting text
+- Selecting text
 
 ### Command-Line Mode
 
-	- Execute built-in vim commands
-	- Execute any shell command!
+- Execute built-in vim commands
+- Execute any shell command!
 
 ### Normal Mode
 	
-	Magic and hjkl.
+- Magic and hjkl.
 
 # Getting Faster
 
@@ -45,20 +48,20 @@
 
 ### How To "Grok" Vim
 
-	Some basic vim terminology:
-	- Verbs
-	- Motions
-	- Objects
+#### Some basic vim terminology
+- Verbs
+- Motions
+- Objects
 
 ### Productivity Tips
 
-	Unmap the arrow keys.
-	Learn something new from time to time.
-	Actively try to improve your editing.
-	Tabs, Splits
-	Ctrl-Z
-	Watch some talks online: "Write Code Faster: Expert-Level Vim"
-	Learn Vimscript the Hard Way.
+- Unmap the arrow keys.
+- Learn something new from time to time.
+- Actively try to improve your editing.
+- Tabs, Splits
+- Ctrl-Z
+- Watch some talks online: "Write Code Faster: Expert-Level Vim"
+- Learn Vimscript the Hard Way.
 
 # Plugins
 
@@ -66,7 +69,7 @@
 
 ### Vim Is not an IDE
 	
-	But it can be.
+- But it can be.
 
 ### NERDTree
 
