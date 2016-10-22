@@ -13,6 +13,18 @@ Part of that is the tooling necessary to achieve some measure of efficiency in w
 ## Roter Faden:
 
 - Demo 4 5.5min
+<!-- It might be worth it to talk about the power of command line generally, if people are still not convinced.
+Not sure if people already realize that you can spend your whole everyday-live in the command line.
+Personally, I only use something other than the command line for very specific tasks - i.e. browsing, telegram, android-studio and viewing pdfs, but I never leave the commandline for anything else. 
+-Nils -->
+
+ - tmux (+ i3?)
+ - zsh completion system
+ - zsh git integration
+ - zsh "file manager" features
+ - Again zsh: Global aliases with -g. This is really neat for grep or youtube-dl for example.
+ - maybe even mention the key shortcuts you can do
+
 - Why command line tools? 6 8.2min
   - command line power is more comfortably accessable
     - scriptable
@@ -38,11 +50,17 @@ Part of that is the tooling necessary to achieve some measure of efficiency in w
     - tig
     - gitk
     - git gui
+    - gitshell
     - zsh (integration)
 - Shell tools 2 2.7min
   - ranger
+  - shell pdf viewer?
+  - zsh calc? No idea how good it is.
+    - There might be a wolfram alpha CLI tool now that I think of it
   - history | tail -20 | cut -d " " -f 1
   - moar plz?
+  - htop? Although sandro has already covered that
+  - parted? Not really a tool for daily use though.
 - Build Toolchains 24 32.7min
   - cmake
   - maven
