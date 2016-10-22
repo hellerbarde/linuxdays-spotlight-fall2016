@@ -7,6 +7,7 @@ notes: |
         - Better understanding
         - more control
 ...
+
 # Git
 ##
 ###
