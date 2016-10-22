@@ -39,6 +39,10 @@
 	
 	Magic and hjkl.
 
+###
+	
+![](resources/vim/hjkl_keyboard.jpg){ width=80% }
+
 # Getting Faster
 
 ## Learning Vim
@@ -66,7 +70,7 @@
 
 ### Vim Is not an IDE
 	
-	But it can be.
+	But it can be. (Almost)
 
 ### NERDTree
 
