@@ -16,31 +16,57 @@ Part of that is the tooling necessary to achieve some measure of efficiency in w
   - Only an overview. Not going into depth on any of the tools
   - IDEs are not evil
   - git, vim, ant, cmake
+  - Control over your environment is important
+    - remove second guessing yourself
 
-- Why Command Line is important 
+- Why Command Line
   - full control
   - transparency
     - important to the understanding (what happens when i click build)
   - reproducibility
   - efficiency
     - with custom bash scripts
+  - Consistency
+    - shell doesn't really change much over the years
+    - see opera, firefox, thunderbird, chrome, android, iphone, youtube... 
+
 
 - Command line tools
+  - ssh (& sshfs)
+  - rsync
   - tmux
     - for long builds
     - for letting runs go over night
-#  - ranger
-
   - history | tail -20
     - Build your own shell script
-  #- htop? Although sandro has already covered that
-  #- parted? Not really a tool for daily use though.
   - gdb
+  - Custom bash scripts
+    - example build.sh
 
 - Vim
+
 - Git
-- Ant
-- Cmake
+  - Why not use the IDE integration?
+    - Better understanding
+    - more control
+
+  - 
+
+
+- Java Build Tools
+  - Why are there multiple ones? 
+    - Example Rust
+
+  - Ant
+  - Gradle
+  - Maven
+
+- C/C++ Build Tools
+  - Honorable Mentions
+    - qmake
+    - autoconf
+    - etc.
+  - cmake/makefiles
 
 - Questions and Workshop?
 
