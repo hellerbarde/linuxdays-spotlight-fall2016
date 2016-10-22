@@ -104,18 +104,9 @@
 
 \lstset{language=Bash,style=custombash,caption={Descriptive Caption Text},label=DescriptiveLabel}
 
-$if(title)$
-\title{$title$}
-$endif$
-$if(subtitle)$
-\subtitle{$subtitle$}
-$endif$
-$if(author)$
-\author{$for(author)$$author$$sep$ \and $endfor$}
-$endif$
 
 \institute{\includegraphics[width=0.35\textwidth]{img/logo_blue.pdf}}
-\date{$date$}
+\date{}
 
 \renewcommand{\emph}[1]{\textcolor{ldorange}{#1}}
 \newcommand{\soft}[1]{\textcolor{lg}{#1}}
@@ -144,27 +135,212 @@ $endif$
 
 \begin{document}
 
-$if(title)$
-\frame{\titlepage}
-$endif$
 
-$for(include-before)$
-$include-before$
 
-$endfor$
 
-$if(toc)$
 \begin{frame}
-\tableofcontents[hideallsubsections]
+
+\% Habits \% John Doe \% March 22, 2005
+
 \end{frame}
 
-$endif$
+\section{In the morning}
 
-$body$
+\subsection{A story}
 
-$for(include-after)$
-$include-after$
+\begin{frame}[fragile]{First some code}
 
-$endfor$
+\begin{verbatim}
+echo "Hello World"
+\end{verbatim}
+
+\end{frame}
+
+\begin{frame}{Getting up}
+
+\begin{itemize}
+\tightlist
+\item
+  Turn off alarm
+\item
+  Get out of bed
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Breakfast}
+
+\begin{itemize}
+\tightlist
+\item
+  Eat eggs
+\item
+  Drink coffee
+\end{itemize}
+
+\end{frame}
+
+\section{In the evening}
+
+\subsection{Another story}
+
+\begin{frame}{Dinner}
+
+\begin{itemize}
+\tightlist
+\item
+  Eat spaghetti
+\item
+  Drink wine
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Going to sleep}
+
+\begin{itemize}
+\tightlist
+\item
+  Get in bed
+\item
+  Count sheep
+\end{itemize}
+
+\% Why CLI tools? \% Philip Stark, Nils Leuzinger \% 25 Oct, 2016
+
+\end{frame}
+
+\section{Very close integration with command line}
+
+\subsection{Some particularly fancy features}
+
+\section{Vim Basics}
+
+\subsection{What Vim Is And Isn't}
+
+\begin{frame}[fragile]{Vim is an editor}
+
+\begin{verbatim}
+...but probably unlike anything else you've ever used. 
+And extremely powerful.
+\end{verbatim}
+
+\end{frame}
+
+\begin{frame}[fragile]{Configurability}
+
+\begin{verbatim}
+Vimscript
+- Remap keys
+- Write whole plugins!
+\end{verbatim}
+
+\end{frame}
+
+\subsection{Modal Editing}
+
+\begin{frame}[fragile]{Vim Modes}
+
+\begin{verbatim}
+- Insert Mode
+- Visual Mode
+- Command-Line Mode
+- Normal Mode
+\end{verbatim}
+
+\end{frame}
+
+\begin{frame}[fragile]{Insert Mode}
+
+\begin{verbatim}
+Does what any other editor does
+\end{verbatim}
+
+\end{frame}
+
+\begin{frame}[fragile]{Visual Mode}
+
+\begin{verbatim}
+Selecting text
+\end{verbatim}
+
+\end{frame}
+
+\begin{frame}[fragile]{Command-Line Mode}
+
+\begin{verbatim}
+- Execute built-in vim commands
+- Execute any shell command!
+\end{verbatim}
+
+\end{frame}
+
+\begin{frame}[fragile]{Normal Mode}
+
+\begin{verbatim}
+Magic and hjkl.
+\end{verbatim}
+
+\end{frame}
+
+\begin{frame}{}
+
+\includegraphics{resources/vim/hjkl_keyboard.jpg}\{ width=50\% \}
+
+\end{frame}
+
+\section{Getting Faster}
+
+\subsection{Learning Vim}
+
+\begin{frame}[fragile]{How To ``Grok'' Vim}
+
+\begin{verbatim}
+Some basic vim terminology:
+- Verbs
+- Motions
+- Objects
+\end{verbatim}
+
+\end{frame}
+
+\begin{frame}[fragile]{Productivity Tips}
+
+\begin{verbatim}
+Unmap the arrow keys.
+Learn something new from time to time.
+Actively try to improve your editing.
+Tabs, Splits
+Ctrl-Z
+Watch some talks online: "Write Code Faster: Expert-Level Vim"
+Learn Vimscript the Hard Way.
+\end{verbatim}
+
+\end{frame}
+
+\section{Plugins}
+
+\subsection{Plugins}
+
+\begin{frame}[fragile]{Vim Is not an IDE}
+
+\begin{verbatim}
+But it can be. (Almost)
+\end{verbatim}
+
+\end{frame}
+
+\begin{frame}{NERDTree}
+
+\end{frame}
+
+\begin{frame}{FileType}
+
+\end{frame}
+
+\begin{frame}{nerdcommenter}
+
+\end{frame}
+
 
 \end{document}

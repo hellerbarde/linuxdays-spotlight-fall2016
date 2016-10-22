@@ -10,7 +10,7 @@ And extremely powerful.
 
 ### Configurability
 
-Vimscript
+#### Vimscript
 
 - Remap keys
 - Write whole plugins!
@@ -41,6 +41,14 @@ Vimscript
 ### Normal Mode
 	
 - Magic and hjkl.
+
+### 
+
+![](resources/vim/ADM-3A terminal.jpg){ width=50% }
+
+###
+
+![](resources/vim/hjkl_keyboard.jpg){ width=80% }
 
 # Getting Faster
 
@@ -74,5 +82,3 @@ Vimscript
 ### NERDTree
 
 ### FileType
-
-### nerdcommenter
