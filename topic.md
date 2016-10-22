@@ -12,14 +12,14 @@ Part of that is the tooling necessary to achieve some measure of efficiency in w
 
 ## Roter Faden:
 
-- Intro
+- Intro 5min (Phil)
   - Only an overview. Not going into depth on any of the tools
   - IDEs are not evil
   - git, vim, ant, cmake
   - Control over your environment is important
     - remove second guessing yourself
 
-- Why Command Line
+- Why Command Line (Nils)
   - full control
   - transparency
     - important to the understanding (what happens when i click build)
@@ -31,7 +31,7 @@ Part of that is the tooling necessary to achieve some measure of efficiency in w
     - see opera, firefox, thunderbird, chrome, android, iphone, youtube... 
 
 
-- Command line tools
+- Command line tools (Phil)
   - ssh (& sshfs)
   - rsync
   - tmux
@@ -43,17 +43,14 @@ Part of that is the tooling necessary to achieve some measure of efficiency in w
   - Custom bash scripts
     - example build.sh
 
-- Vim
+- Vim (Nils)
 
-- Git
+- Git (Phil)
   - Why not use the IDE integration?
     - Better understanding
     - more control
 
-  - 
-
-
-- Java Build Tools
+- Java Build Tools (Demo Nils, Theorie Phil)
   - Why are there multiple ones? 
     - Example Rust
 
@@ -61,15 +58,19 @@ Part of that is the tooling necessary to achieve some measure of efficiency in w
   - Gradle
   - Maven
 
-- C/C++ Build Tools
-  - Honorable Mentions
-    - qmake
-    - autoconf
-    - etc.
-  - cmake/makefiles
 
-- Questions and Workshop?
+- Misc: (Nils)
+  - C/C++ Build Tools
+    - Honorable Mentions
+      - qmake
+      - autoconf
+      - etc.
+    - cmake/makefiles
+    - unit test runner 
 
+- Questions  20-30min
+
+------------------------------------------------------------------------------------------------------------------
 
 - Demo 4 5.5min
 <!-- It might be worth it to talk about the power of command line generally, if people are still not convinced.
