@@ -21,4 +21,47 @@ notes: |
 ### Overview
 
 - What this course is
+    - An Overview
 - What this course won't be
+    - In depth
+
+### IDEs
+
+#### "Integrated Development Environments"
+
+- Java: Eclipse, IntelliJ
+- C/C++: Visual Studio, CLion
+- C#: Visual Studio, MonoDevelop
+
+- IDEs are not evil!
+
+### Features 
+
+- Refactoring Tools
+- Autocompletion
+- **Build Tools**
+
+### No IDE Available
+
+- Languages without dedicated IDE
+    - Haskell
+    - Erlang
+    - Elixir
+
+- Manually compiling? running?
+
+### Build Tools
+
+- From source code to releasable build
+- Should be 
+    - Reproducible
+    - Stable
+    - Easy
+    - Automated
+
+- Why?
+
+### Build Tools 2
+
+- Be in control
+- Eliminate doubt 
