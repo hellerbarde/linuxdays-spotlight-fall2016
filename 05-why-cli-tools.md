@@ -16,27 +16,22 @@ notes: |
         - see opera, firefox, thunderbird, chrome, android, iphone, youtube... 
 ...
 
-# CLI
-
-## What are "CLI" tools?
-
-### What are "CLI" tools?
-
-###
+# CLI Tools
 
 ## Why use them?
 
 ### Why?
 
-- Full Control
+- _Full_ control
 - Transparency
 - Reproducibility
 - Efficiency
 - Consistency
+- Wide application range
 
 ### Full Control
 
-- Reduces the magic
+- Reduces the magic 
 - You're not dependent on an IDE
 
 ### Transparency
@@ -46,6 +41,8 @@ notes: |
 
 ### Reproducibility
 
+- Will your code work on _other_ PCs?
+
 ### Efficiency
 
 - Custom bash scripts
@@ -54,9 +51,19 @@ notes: |
 
 ### Consistency
 
-CLI is archaic
+CLI is tried and true
 
 ###
 <!-- Picture of Word 30 years ago.-->
-![](resources/vim/Word_1989.jpg){ width=50% }
+![](resources/05whyCLI/Word_1989.jpg){ width=50% }
 
+###
+![](resources/05whyCLI/commandline_then.jpg){ height=200px }
+![](resources/05whyCLI/commandline_now.jpg){ height=200px }
+
+
+### Wide Application Range
+<!-- Mention that these slides were written as markdown, using git as a VCS, written in vim, with 
+Christian's theme. The Shell can bring all those things together really effortlessly -->
+
+![](resources/05whyCLI/wide_application.jpg){ height=230px }

@@ -8,13 +8,26 @@ notes: |
 
 ## What Vim Is And Isn't
 
+###
+
+![](resources/10vim/vim_plain.jpg){ height=230px }
+
+###
+
+![](resources/10vim/vim_configured.jpg){ height=230px }   
+
 ### Vim is an editor
 
-...but probably unlike anything else you've ever used. 
-
-And extremely powerful.
+- Extremely powerful
+- Unlike anything you've ever used
 
 ### Configurability
+
+#### Themes
+<!-- "This is not what I suggest you start out with!" -->
+
+- Gruvbox, Molokai, Jellybeans, Badwolf, Solarized, Dracula, ...
+- http://vimcolors.com/
 
 #### Vimscript
 
@@ -22,7 +35,6 @@ And extremely powerful.
 - Write whole plugins!
 
 ## Modal Editing
-
 
 ### Vim Modes
 
@@ -44,17 +56,17 @@ And extremely powerful.
 - Execute built-in vim commands
 - Execute any shell command!
 
-### Normal Mode
-	
-- Magic and hjkl.
+### Normal Mode 
+
+- Wizardry and hjkl 
 
 ###
 
-![](resources/vim/ADM-3A terminal.jpg){ width=50% }
+![](resources/10vim/ADM-3A terminal.jpg){ width=50% }
 
 ###
 
-![](resources/vim/hjkl_keyboard.jpg){ width=80% }
+![](resources/10vim/hjkl_keyboard.jpg){ width=80% }
 
 ## Learning Vim
 
@@ -67,20 +79,30 @@ And extremely powerful.
 
 ### Productivity Tips
 
-- Unmap the arrow keys.
+- _Unmap the arrow keys._
 - Learn something new from time to time.
 - Actively try to improve your editing.
-- Tabs, Splits
 - Ctrl-Z
-- Watch some talks online: "Write Code Faster: Expert-Level Vim"
-- Learn Vimscript the Hard Way.
+- Watch some _talks_ online: "Write Code Faster: Expert-Level Vim"
+- _Book_: Practical Vim
+- _Youtube_: Thoughtbot
+- http://vimcasts.org
+
 
 ## Plugins
 
 ### Vim Is not an IDE
 	
-- But it can be.
+- But it can be. (Almost)
 
 ### NERDTree
 
-### FileType
+![](resources/10vim/nerdtree.jpg){ height=230px }
+
+### Some more:
+
+- Commenter
+- Surround
+- Easymotion
+- http://vimawesome.com/
+
