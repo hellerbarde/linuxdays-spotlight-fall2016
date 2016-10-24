@@ -10,13 +10,13 @@
   - MyWebDevProject
   - ParallelProgrammingEx1
   - A_and_D_Ex2 -->
-  <property name="projectname" value="pfcs"/>
+  <property name="projectname" value="spotlight_demo"/>
 
   <!-- this property will appear in the output filename. 
   Set it to your name or n.ethz user name -->
-  <property name="username" value="pstark"/>
+  <property name="username" value="tux"/>
 
-  <property name="mainclass" value="your.packages.name.exercises.MainClass"/>
+  <property name="mainclass" value="ch.thealt.Main"/>
 
   <!-- directory where your java files are -->
   <property name="src" location="src"/>
@@ -34,6 +34,7 @@
     <fileset dir="${lib}">
       <include name="*.jar"/>
     </fileset>
+    <file/>
   </path>
 
   <target name="init">
@@ -62,6 +63,14 @@
         <attribute name="Main-Class" value="${mainclass}"/>
       </manifest>
     </jar>
+  </target>
+
+  <target name="run" depends="compile" description="run application">
+    <java classname="${mainclass}" classpathref="classpath" classpath="${build}" fork='true'/>
+  </target>
+
+  <target name="runjar" depends="jar" description="run application">
+    <java jar="${dist}/${projectname}-${username}.jar" fork='true'/>
   </target>
 
   <target name="clean" description="clean folder">
