@@ -1,0 +1,35 @@
+TODO
+
+[] Write README.md
+
+[] Look up Youtube videos for git
+    [] Git for ages five and up
+    []
+
+[] Look up 
+
+[] Put together a handout with links
+    [] Git
+        [] git book
+        [] git cola
+        [] tig
+
+    [] Vim
+        [] Steve Losh
+    
+    [] Build Tools
+        [] Ant
+        [] Gradle
+        [] cmake
+        [] makefiles
+        [] Maven
+        [] Setuptools (Python)
+
+    [] Unit Testing
+        [] jUnit
+        [] Python Nose Tests
+        [] Google Testing Suite (C++)
+
+    [] Continuous Integration
+        [] Jenkins
+        [] Travis-CI
