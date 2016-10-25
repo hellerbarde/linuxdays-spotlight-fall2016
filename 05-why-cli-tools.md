@@ -22,7 +22,7 @@ notes: |
 
 ### Why?
 
-- _Full_ control
+- **Full** control
 - Transparency
 - Reproducibility
 - Efficiency
@@ -41,12 +41,12 @@ notes: |
 
 ### Reproducibility
 
-- Will your code work on _other_ PCs?
+- Will your code work on **other** PCs?
 
 ### Efficiency
 
 - Custom bash scripts
-- Other shells (zsh, fish, ...)
+- Other shells (`zsh`, `fish`, ...)
 - Great array of commands at your disposal
 
 ### Consistency
