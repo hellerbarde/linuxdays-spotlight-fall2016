@@ -23,6 +23,9 @@ notes: |
 
 - First release 11 years ago
 - Built for large codebases
+    - Linux Kernel (*Millions* of lines)
+- Works well for small projects too
+    - Your programming exercises ;) 
 - **Stigma of complexity**
 
 ### Questions
@@ -41,6 +44,14 @@ notes: |
     - Branching
     - 
 
+### Story Time
+
+- Demo the 
+
+### Recommendations
+
+- `tig`
+- `git cola`
 
 
 
