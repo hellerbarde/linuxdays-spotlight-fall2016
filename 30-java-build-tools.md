@@ -16,6 +16,32 @@ notes: |
 
 ## 
 
-###
+### Overview of Build Tools
 
-Java Build Tools
+#### Compile, Test and Run
+
+- ant 
+- make 
+- Custom Shell Scripts
+
+#### Also find libraries
+
+- cmake (C/C++)
+
+#### **Also** download missing libraries
+
+- maven
+- gradle
+
+### Common Ground
+
+- Help **you** with building software 
+
+### Why Do You Need Automation
+
+- Time
+- Consistency
+- Reliability
+
+
+

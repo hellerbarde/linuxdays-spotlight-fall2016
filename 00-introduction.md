@@ -9,7 +9,6 @@ author:
 notes: |
     - Intro 5min (Phil)
       - Only an overview. Not going into depth on any of the tools
-      - 
       - IDEs are not evil
       - git, vim, ant, cmake
       - Control over your environment is important
@@ -30,21 +29,32 @@ notes: |
 - Pause (5 min)
 
 - Block 2 (40 min)
-    - Build Tools
+    - Build Tools (Java)
     - Misc
 
 - Questions and Answers
 
 ### Overview
 
-#### Course Description
-- "We teach you all about compilers and debuggers" - Probably not
+#### Broad Topic
+- Too much to talk about everything
 
-#### Expectations
+#### Managing Expectations
 - What this course is
     - An Overview
 - What this course won't be
     - In depth...
+
+### Take Home Message
+
+#### What we want you to take home from this course:
+
+- It pays off to learn to use tools
+- Automation is worth it
+
+#### If You're Bored
+- Slides and Demo Examples:
+    [https://github.com/hellerbarde/linuxdays-spotlight-fall2016](https://github.com/hellerbarde/linuxdays-spotlight-fall2016)  
 
 ### IDEs
 
@@ -54,7 +64,7 @@ notes: |
 - C/C++: Visual Studio, CLion
 - C#: Visual Studio, MonoDevelop
 
-- IDEs are not evil!
+- *Aside:* IDEs are good!
 
 ### Features 
 
@@ -71,9 +81,9 @@ notes: |
     - Easy
     - Automated
 
-- Why?
+- Why? (no, really, why? It's so much work...)
 
-### Build Tools 2
+---
 
 - Be in control
 - Eliminate doubt 
@@ -85,4 +95,3 @@ notes: |
     - Erlang
     - Elixir
 
-- Manually compiling? running?

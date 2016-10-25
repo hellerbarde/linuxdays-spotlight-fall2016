@@ -16,7 +16,7 @@ notes: |
         - see opera, firefox, thunderbird, chrome, android, iphone, youtube... 
 ...
 
-# CLI Tools
+# Command Line Tools
 
 ## Why use them?
 
@@ -51,7 +51,7 @@ notes: |
 
 ### Consistency
 
-CLI is tried and true
+- Bash is tried and true
 
 ###
 <!-- Picture of Word 30 years ago.-->

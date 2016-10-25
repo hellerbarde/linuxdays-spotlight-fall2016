@@ -27,7 +27,7 @@ notes: |
 <!-- "This is not what I suggest you start out with!" -->
 
 - Gruvbox, Molokai, Jellybeans, Badwolf, Solarized, Dracula, ...
-- http://vimcolors.com/
+- [http://vimcolors.com/](http://vimcolors.com/)
 
 #### Vimscript
 

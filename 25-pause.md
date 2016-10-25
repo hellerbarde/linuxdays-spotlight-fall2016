@@ -11,4 +11,4 @@ notes: |
 
 ### 
 
-Quick Break. Back in 10 minutes. 
+Quick Break. Back in 5 minutes. 
