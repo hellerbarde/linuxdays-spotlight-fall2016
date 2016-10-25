@@ -53,6 +53,7 @@ notes: |
 - Automation is worth it
 
 #### If You're Bored
+- Handout
 - Slides and Demo Examples:
     [https://github.com/hellerbarde/linuxdays-spotlight-fall2016](https://github.com/hellerbarde/linuxdays-spotlight-fall2016)  
 

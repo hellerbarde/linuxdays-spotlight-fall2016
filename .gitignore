@@ -5,5 +5,5 @@
 *~
 *.swp
 *.tmp
-*.pdf
+#*.pdf
 spotlight_hs16.pdf
