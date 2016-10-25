@@ -17,6 +17,8 @@ apt-get install texlive-full pandoc
 
 ## Further resources
 
+(Most of these are clickable links!)
+
 ### Vim
 
 #### Vim "Tutorial"
