@@ -1,12 +1,13 @@
 TODO
 
-[] Write README.md
+[x] Write README.md
 
 [] Look up Youtube videos for git
     [] Git for ages five and up
     []
 
-[] Look up 
+[] Look up Vim Resources
+
 
 [] Put together a handout with links
     [] Git
