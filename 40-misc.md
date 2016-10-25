@@ -28,11 +28,11 @@ notes: |
 
 ### Misc Build tools
 - C/C++ build tools:
-  - autoconf
-  - qmake
-  - cmake
-  - makefiles
-  - unit test runner
+    - autoconf
+    - qmake
+    - cmake
+    - makefiles
+    - unit test runner
 - Debuggers:
-  - gdb
-  - Valgrind
+    - gdb
+    - Valgrind

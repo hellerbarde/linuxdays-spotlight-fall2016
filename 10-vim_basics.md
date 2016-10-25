@@ -77,12 +77,13 @@ notes: |
 - Motions
 - Objects
 
+#### Vimtutor
+
 ### Productivity Tips
 
 - _Unmap the arrow keys._
 - Learn something new from time to time.
 - Actively try to improve your editing.
-- Ctrl-Z
 - Watch some _talks_ online: "Write Code Faster: Expert-Level Vim"
 - _Book_: Practical Vim
 - _Youtube_: Thoughtbot
