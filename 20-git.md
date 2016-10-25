@@ -25,8 +25,14 @@ notes: |
 - Built for large codebases
 - **Stigma of complexity**
 
-- Who has heard of Git?
-- Who heard it was really hard?
+### Questions
+
+- Who has heard of Git? (before today)
+- Who used Git before?
+- Who was forced to use Git?
+- Who feels comfortable with it?
+- Why not? ![](img/emoji_laugh.png){ width=17px }
+- Who thinks it's black magic?
 
 ### Complexity
 
